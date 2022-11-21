@@ -9,7 +9,7 @@ geometry/convex_hull.py	Convex Hull
 geometry/cpp_geometry_misc.cc	Misc Geometry Functions (C++)
 
 [Graphs/Trees]
-graphs/graph_structure_bfs_dfs.py	Graph structure example for our DFS and BFS algorithms
+graphs/input_graph.py	Graph structure example for our DFS and BFS algorithms
 graphs/bfs.py	Breadth-First Search
 graphs/bfs_paths.py	Breadth-First Search Paths
 graphs/bfs_shortest_path.py	Breadth-First Search Shortest Path
