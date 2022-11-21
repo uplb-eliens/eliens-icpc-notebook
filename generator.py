@@ -61,9 +61,9 @@ def get_tex(sections):
 
 if __name__ == "__main__":
     if len(sys.argv) == 0:
-        print('Usage : %s [python|cpp]' % sys.argv[0])
+        print('Usage : %s <python3|cpp>' % sys.argv[0])
     basepath = sys.argv[1]
-    assert basepath in ('python','cpp')
+    assert basepath in ('python3','cpp')
     sections = get_sections(basepath)
     tex = get_tex(sections)
     with open('contents_'+basepath+'.tex', 'w') as f:
