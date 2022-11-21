@@ -23,7 +23,7 @@ subfolder/file.cpp  Description of the file      # Optional end-of-line comment
 ```
 Note: Separator for the code path and description is a TAB.
 
-## To clean up:
+##  Clean Up
 ```
 $./clean.sh
 ```
