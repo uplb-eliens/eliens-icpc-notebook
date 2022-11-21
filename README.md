@@ -1,5 +1,5 @@
 # UPLB Eliens ICPC Notebook
-Supports C++ and Python notebooks.
+Supports C++ and Python3 notebooks.
 
 Credits: https://github.com/abizerlokhandwala/ICPC-notebook-generator
 
