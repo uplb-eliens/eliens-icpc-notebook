@@ -12,7 +12,7 @@ $sudo apt install texlive-base texlive texlive-latex-extra latexmk
 To generate a notebook:
 
 ```
-$python3 generator.py [python|cpp]
+$python3 generator.py <python|cpp>
 ```
 
 
