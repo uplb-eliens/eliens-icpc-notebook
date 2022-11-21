@@ -1,3 +1,5 @@
+from input_graph import graph 
+
 def bfs(graph, start):
     visited, queue = set(), [start]
     while queue:
@@ -7,4 +9,4 @@ def bfs(graph, start):
             queue.extend(graph[vertex] - visited)
     return visited
 
-bfs(graph, 'A') # {'B', 'C', 'A', 'F', 'D', 'E'}
+print(bfs(graph, 'A')) # {'B', 'C', 'A', 'F', 'D', 'E'}

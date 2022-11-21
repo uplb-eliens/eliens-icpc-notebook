@@ -21,5 +21,5 @@ def dijkstra(edges, f, t):
 #Code example
 edges = [("A", "B", 7), ("A", "D", 5), ("B", "C", 8),
          ("B", "D", 9), ("B", "E", 7), ("C", "E", 5)]
-print "A -> E:"
-print dijkstra(edges, "A", "E")   #(14, ('E', ('B', ('A', ()))))
+print ("A -> E:")
+print (dijkstra(edges, "A", "E"))   #(14, ('E', ('B', ('A', ()))))

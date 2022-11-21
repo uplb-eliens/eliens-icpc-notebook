@@ -1,3 +1,5 @@
+from input_graph import graph
+
 #Returns all paths from start to goal
 def dfs_paths(graph, start, goal):
     stack = [(start, [start])]
@@ -9,4 +11,4 @@ def dfs_paths(graph, start, goal):
             else:
                 stack.append((next, path + [next]))
 
-list(dfs_paths(graph, 'A', 'F')) # [['A', 'C', 'F'], ['A', 'B', 'E', 'F']]
+print(list(dfs_paths(graph, 'A', 'F'))) # [['A', 'C', 'F'], ['A', 'B', 'E', 'F']]

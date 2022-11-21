@@ -1,3 +1,4 @@
+from input_graph import graph
 def bfs_paths(graph, start, goal):
     queue = [(start, [start])]
     while queue:
@@ -8,4 +9,4 @@ def bfs_paths(graph, start, goal):
             else:
                 queue.append((next, path + [next]))
 
-list(bfs_paths(graph, 'A', 'F')) # [['A', 'C', 'F'], ['A', 'B', 'E', 'F']]
+print(list(bfs_paths(graph, 'A', 'F'))) # [['A', 'C', 'F'], ['A', 'B', 'E', 'F']]

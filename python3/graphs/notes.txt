@@ -1,0 +1,4 @@
+not yet tested/fixed:
+* floyd_warshall.py 
+* mergefind_and_kruskal.py 
+
