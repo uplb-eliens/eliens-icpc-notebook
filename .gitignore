@@ -4,3 +4,4 @@ eliens_notebook_*.log
 eliens_notebook_*.out
 eliens_notebook_*.fdb_latexmk
 eliens_notebook_*.toc
+contents_*.tex
