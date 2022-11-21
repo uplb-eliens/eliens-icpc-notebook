@@ -21,8 +21,7 @@ The codes are placed in `cpp` and `python3` folders. There is a `contents.txt` o
 [Section name]
 subfolder/file.cpp  Description of the file      # Optional end-of-line comment
 ```
-Note that there is a tab between the filename and its description. You shouldn't use tabs anywhere else in this file.
-
+Note: Separator for the code path and description is a TAB.
 
 ## To clean up:
 ```
