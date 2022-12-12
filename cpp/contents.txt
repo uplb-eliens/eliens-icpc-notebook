@@ -38,6 +38,9 @@ math/totient.cpp	Euler totient
 math/fft.cpp	FFT
 math/fftdnc.cpp	FFT-DNC
 
+[Number Theory]
+number-theory/modulo-inverse.cpp Modulo Inverse
+
 [Strings]
 string/KMP.cpp	Knuth-Morris-Pratt Algorithm
 string/Suffix.cpp	Suffix array
@@ -48,3 +51,4 @@ misc/Template.cpp	Template
 misc/fastio.cpp	fast io
 misc/lisnlogn.cpp	LIS nlogn
 misc/MO.cpp	MOs
+
