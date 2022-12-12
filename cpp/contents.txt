@@ -2,7 +2,6 @@
 ds/union-find.cpp	Union Find
 ds/BIT.cpp	BIT
 ds/Segtree.cpp	Segment Tree
-ds/Lazy-Segtree.cpp	Lazy-Segment Tree
 ds/policytree.cpp	Policy Tree
 ds/Trie.cpp	Trie
 
@@ -24,7 +23,7 @@ graph/cyclic-graph.cpp	Cyclic Graph #check if there's a cyclic subgraph
 graph/strongly-connected-components.cpp	Strongly Connected components
 graph/Articulation-Points.cpp	Articulation Points
 graph/Bridge-Points.cpp	Bridges
-graph/Euler.cpp	Euler's Circuit
+graph/Euler.cpp	Euler's	Circuit
 graph/Ford-Fulkerson-Max-Flow.cpp	Ford-Fulkerson Max Flow
 graph/Maximum-Bipartite-Matching.cpp	Maximum Bipartite Matching
 
@@ -49,11 +48,11 @@ math/fft.cpp	FFT
 math/fftdnc.cpp	FFT-DNC
 
 [Number Theory]
-number-theory/euler-totient.cpp     Euler's Totient
-number-theory/modulo-inverse.cpp    Modulo Inverse
-number-theory/binary-modular-exponentiation.cpp     Binary Modular Exponentiation
-number-theory/prime-sieve.cpp   Prime Sieve
-number-theory/prime-factors.cpp     Prime Factors
+numbertheory/euler-totient.cpp	Euler's Totient
+numbertheory/modulo-inverse.cpp	Modulo Inverse
+numbertheory/binary-modular-exponentiation.cpp	Binary Modular Exponentiation
+numbertheory/prime-sieve.cpp	Prime Sieve
+numbertheory/prime-factors.cpp	Prime Factors
 
 [Strings]
 string/KMP.cpp	Knuth-Morris-Pratt Algorithm
@@ -66,4 +65,4 @@ misc/lisnlogn.cpp	LIS nlogn
 misc/MO.cpp	MOs
 
 [DYNAMIC]
-dynamic/longest-common-subsequence.cpp Longest Common Subsequence
+dynamic/longest-common-subsequence.cpp	Longest Common Subsequence

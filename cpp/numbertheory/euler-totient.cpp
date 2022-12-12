@@ -17,3 +17,4 @@ ll phi(ll n)
         res -= res / n;
         return res;
     }
+}
