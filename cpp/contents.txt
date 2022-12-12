@@ -41,7 +41,7 @@ math/fftdnc.cpp	FFT-DNC
 [Number Theory]
 number-theory/modulo-inverse.cpp Modulo Inverse
 number-theory/prime-sieve.cpp Prime Sieve
-
+number-theory/binary-modular-exponentiation.cpp Binary Modular Exponentiation
 
 [Strings]
 string/KMP.cpp	Knuth-Morris-Pratt Algorithm
