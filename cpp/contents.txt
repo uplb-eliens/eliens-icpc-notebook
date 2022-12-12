@@ -40,6 +40,8 @@ math/fftdnc.cpp	FFT-DNC
 
 [Number Theory]
 number-theory/modulo-inverse.cpp Modulo Inverse
+number-theory/prime-sieve.cpp Prime Sieve
+
 
 [Strings]
 string/KMP.cpp	Knuth-Morris-Pratt Algorithm
