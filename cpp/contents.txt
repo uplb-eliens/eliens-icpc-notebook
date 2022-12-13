@@ -1,25 +1,35 @@
+[Data Structures]
+ds/union-find.cpp	Union Find
+ds/BIT.cpp	BIT
+ds/Segtree.cpp	Segment Tree
+ds/Lazy-Segtree.cpp	Lazy-Segment Tree
+ds/policytree.cpp	Policy Tree
+ds/Trie.cpp	Trie
+
 [Geometry]
 geometry/Convex-Hull.cpp	Convex Hull
 geometry/point-in-poly-O(n).cpp	Point inside polygon
 geometry/welzian.cpp	Welzian algo
-
+geometry/orientation.cpp	Orientation
+geometry/line-intersection.cpp	Line intersection
 
 [Graphs]
-graph/Articulation-and-Bridge-Points.cpp	Articulation and Bridge points
-graph/Dijkstra.cpp	Dijkstra
+graph/Dijkstra.cpp	Dijkstra #sssp for weights with positive edges
 graph/LCA.cpp	LCA
+graph/Floyd-Warshall.cpp	Floyd Warshall  #sssp for weights with negative edges
+graph/Bellman-Ford.cpp	Bellman Ford    #sssp for weigths with negative edges
+graph/Prim-MST.cpp	Prim's Algorithm for MST
+graph/topological-sort.cpp	Topological Sort using DFS
+graph/cyclic-graph.cpp	Cyclic Graph #check if there's a cyclic subgraph
+graph/strongly-connected-components.cpp	Strongly Connected components
+graph/Articulation-Points.cpp	Articulation Points
+graph/Bridge-Points.cpp	Bridges
+graph/Euler.cpp	Euler's Circuit
+graph/Ford-Fulkerson-Max-Flow.cpp	Ford-Fulkerson Max Flow
+graph/Maximum-Bipartite-Matching.cpp	Maximum Bipartite Matching
 
 [Flows]
-flows/Bipartite.cpp	Bipartite
-flows/Max-Flow.cpp	Max-Flow
 flows/MCMF.cpp	MCMF
-
-[Tree]
-trees/BIT.cpp	BIT
-trees/Segtree.cpp	Segment Tree
-trees/Lazy-Segtree.cpp	Lazy-Segment Tree
-trees/policytree.cpp	Policy Tree
-trees/Trie.cpp	Trie
 
 [Math]
 math/crt.cpp	CRT
@@ -38,13 +48,22 @@ math/totient.cpp	Euler totient
 math/fft.cpp	FFT
 math/fftdnc.cpp	FFT-DNC
 
+[Number Theory]
+number-theory/euler-totient.cpp     Euler's Totient
+number-theory/modulo-inverse.cpp    Modulo Inverse
+number-theory/binary-modular-exponentiation.cpp     Binary Modular Exponentiation
+number-theory/prime-sieve.cpp   Prime Sieve
+number-theory/prime-factors.cpp     Prime Factors
+
 [Strings]
 string/KMP.cpp	Knuth-Morris-Pratt Algorithm
 string/Suffix.cpp	Suffix array
 string/z-function.cpp	z-function
 
 [EZPZ]
-misc/Template.cpp	Template
 misc/fastio.cpp	fast io
 misc/lisnlogn.cpp	LIS nlogn
 misc/MO.cpp	MOs
+
+[DYNAMIC]
+dynamic/longest-common-subsequence.cpp Longest Common Subsequence
