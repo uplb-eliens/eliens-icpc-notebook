@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# Most of the credit for this file goes to the Stanford University ACM team
+# Most of the credit for this file goes to the Stanford University ACM team hello
 
 import os
 import subprocess
