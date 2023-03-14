@@ -16,7 +16,7 @@ def generateString(basepath):
         
         # files
         for file in files:
-            res += dir + "/" + file + '\t' + " ".join([word[0:1].upper() + word[1:] for word in re.sub(r'\.{}'.format(basepath),'', file).split("_")]) + '\n'
+            res += dir + "/" + file + '\t' + " ".join([word[0:1].upper() + word[1:] for word in re.sub(r'\.{}'.format(basepath if basepath == "cpp" else 'py'),'', file).split("_")]) + '\n'
 
         res += "\n"
     return res
