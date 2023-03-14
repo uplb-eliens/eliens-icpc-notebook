@@ -7,7 +7,6 @@ void dfs(ll u, vector<vector<ll>> &adj, vector<bool> &visited) {
     }
   }
 }
- 
 vector<vector<ll>> get_transpose(ll n, vector<vector<ll>> &adj) {
   vector<vector<ll>> res(n);
   for (ll u = 0; u < n; u++) {
@@ -17,7 +16,6 @@ vector<vector<ll>> get_transpose(ll n, vector<vector<ll>> &adj) {
   }
   return res;
 }
- 
 void fill_order(ll u, vector<vector<ll>> &adj, vector<bool> &visited, stack<ll> &stk) {
   visited[u] = true;
   for(auto v : adj[u]) {
@@ -27,7 +25,6 @@ void fill_order(ll u, vector<vector<ll>> &adj, vector<bool> &visited, stack<ll> 
   }
   stk.push(u);
 }
-
 void get_scc(ll n, vector<vector<ll>> &adj) {
   stack<ll> stk;
   vector<bool> visited(n, false);

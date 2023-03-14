@@ -16,7 +16,6 @@ void bridge_util(vector<vector<ll>> &adj, ll u, vector<bool> &visited, vector<ll
     }
   }
 }
-
 void bridge(vector<vector<ll>> &adj, ll n) {
   vector<bool> visited(n, false);
   vector<ll> disc(n), low(n), parent(n, -1);

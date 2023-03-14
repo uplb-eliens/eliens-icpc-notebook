@@ -1,8 +1,3 @@
-ll n, m;
-vector<vector<ll>> adj;
-vector<bool> visited;
-vector<ll> ans;
-
 void dfs(ll v) {
   visited[v] = true;
   for (ll u : adj[v]) {
@@ -12,7 +7,6 @@ void dfs(ll v) {
   }
   ans.push_back(v);
 }
-
 void topological_sort() {
   visited.assign(n, false);
   ans.clear();

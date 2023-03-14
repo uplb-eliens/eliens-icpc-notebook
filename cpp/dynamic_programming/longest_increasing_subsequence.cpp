@@ -9,7 +9,6 @@ ll get_ceil_idx(vector<ll> &a, vector<ll> &T, ll l, ll r, ll x) {
   }
   return r;
 }
-
 ll LIS(ll n, vector<ll> &a) {
   ll len = 1;
   vector<ll> T(n, 0), R(n, - 1);

@@ -21,7 +21,6 @@ bool bfs(ll n, vector<vector<ll>> &r_graph, ll s, ll t, vector<ll> &parent) {
   }
   return false;
 }
- 
 ll fordFulkerson(ll n, vector<vector<ll>> graph, ll s, ll t) {
   ll u, v;
   vector<vector<ll>> r_graph;

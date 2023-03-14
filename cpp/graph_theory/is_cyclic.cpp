@@ -11,7 +11,6 @@ bool is_cyclic_util(int u, vector<vector<int>> &adj, vector<bool> &vis, vector<b
   rec[u] = false;
   return false;
 }
-
 bool is_cyclic(int n, vector<vector<int>> &adj) {
   vector<bool> vis(n, false), rec(n, false);
   for (int i = 0; i < n; i++) {

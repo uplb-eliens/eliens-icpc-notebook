@@ -1,11 +1,9 @@
 ll mult(ll a, ll b, ll mod) {
   return (__int128_t) a * b % mod;
 }
-
 ll f(ll x, ll c, ll mod) {
   return (mult(x, x, mod) + c) % mod;
 }
-
 ll pollard_rho_brent(ll n, ll x0 = 2, ll c = 1) {
   ll x = x0, g = 1, q = 1, xs, y, m = 128, l = 1;
   while (g == 1) {

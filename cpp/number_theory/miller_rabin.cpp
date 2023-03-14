@@ -11,7 +11,6 @@ bool check_composite(u64 n, u64 a, u64 d, ll s) {
   }
   return true;
 }
-
 bool miller_rabin(u64 n) {
   if (n < 2) {
     return false;

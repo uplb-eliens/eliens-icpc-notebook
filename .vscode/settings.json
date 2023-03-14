@@ -1,6 +1,9 @@
 {
+    "editor.formatOnSave": false,
     "files.associations": {
         "*html": "html",
-        "vector": "cpp"
+        "vector": "cpp",
+        "system_error": "cpp",
+        "xstring": "cpp"
     }
 }

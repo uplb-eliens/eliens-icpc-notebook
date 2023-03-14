@@ -19,7 +19,6 @@ vector<ll> &disc, vector<ll> &low, ll &time, ll parent, vector<bool> &isAP) {
     isAP[u] = true;
   }
 }
- 
 void AP(vector<vector<ll>> &adj, ll n) {
   vector<ll> disc(n), low(n);
   vector<bool> visited(n), isAP(n);

@@ -1,68 +1,37 @@
 [Data Structures]
-ds/union-find.cpp	Union Find
-ds/BIT.cpp	BIT
-ds/Segtree.cpp	Segment Tree
-ds/policytree.cpp	Policy Tree
-ds/Trie.cpp	Trie
+data_structures/union_find.cpp	Union Find
 
-[Geometry]
-geometry/Convex-Hull.cpp	Convex Hull
-geometry/point-in-poly-O(n).cpp	Point inside polygon
-geometry/welzian.cpp	Welzian algo
-geometry/orientation.cpp	Orientation
-geometry/line-intersection.cpp	Line intersection
+[Dynamic Programming]
+dynamic_programming/edit_distance.cpp	Edit Distance
+dynamic_programming/knapsack.cpp	Knapsack
+dynamic_programming/longest_common_subsequence.cpp	Longest Common Subsequence
+dynamic_programming/longest_increasing_subsequence.cpp	Longest Increasing Subsequence
+dynamic_programming/subset_sum.cpp	Subset Sum
 
-[Graphs]
-graph/Dijkstra.cpp	Dijkstra #sssp for weights with positive edges
-graph/LCA.cpp	LCA
-graph/Floyd-Warshall.cpp	Floyd Warshall  #sssp for weights with negative edges
-graph/Bellman-Ford.cpp	Bellman Ford    #sssp for weigths with negative edges
-graph/Prim-MST.cpp	Prim's Algorithm for MST
-graph/topological-sort.cpp	Topological Sort using DFS
-graph/cyclic-graph.cpp	Cyclic Graph #check if there's a cyclic subgraph
-graph/strongly-connected-components.cpp	Strongly Connected components
-graph/Articulation-Points.cpp	Articulation Points
-graph/Bridge-Points.cpp	Bridges
-graph/Euler.cpp	Euler's	Circuit
-graph/Ford-Fulkerson-Max-Flow.cpp	Ford-Fulkerson Max Flow
-graph/Maximum-Bipartite-Matching.cpp	Maximum Bipartite Matching
-
-[Flows]
-flows/MCMF.cpp	MCMF
-
-[Math]
-math/crt.cpp	CRT
-math/digitdp.cpp	DigitDP
-math/dpdnc.cpp	DP DNC
-math/Euclidean.cpp	Euclidean
-math/factors-in-n-1-3.cpp	Factors in n-1-3
-math/Fibo-LogN.cpp	Fibo logn
-math/gaussian.cpp	EGaussian Algorithm
-math/lucasthm.cpp	Lucas theorem
-math/matrexpo.cpp	Matrix expo
-math/Miller-Rabin.cpp	Miller-Rabin
-math/mobius.cpp	Mobius
-math/sqrt-cbrt-tourist.cpp	SQRT CBRT tourist
-math/totient.cpp	Euler totient
-math/fft.cpp	FFT
-math/fftdnc.cpp	FFT-DNC
+[Graph Theory]
+graph_theory/articulation_point.cpp	Articulation Point
+graph_theory/bellman_ford.cpp	Bellman Ford
+graph_theory/bridge.cpp	Bridge
+graph_theory/dijkstra.cpp	Dijkstra
+graph_theory/floyd_warshall.cpp	Floyd Warshall
+graph_theory/hierholzer.cpp	Hierholzer
+graph_theory/is_bipartite.cpp	Is Bipartite
+graph_theory/is_cyclic.cpp	Is Cyclic
+graph_theory/kahn.cpp	Kahn
+graph_theory/maximum_bipartite_matching.cpp	Maximum Bipartite Matching
+graph_theory/max_flow.cpp	Max Flow
+graph_theory/prim_mst.cpp	Prim Mst
+graph_theory/strongly_connected_component.cpp	Strongly Connected Component
+graph_theory/topological_sort.cpp	Topological Sort
 
 [Number Theory]
-numbertheory/euler-totient.cpp	Euler's Totient
-numbertheory/modulo-inverse.cpp	Modulo Inverse
-numbertheory/binary-modular-exponentiation.cpp	Binary Modular Exponentiation
-numbertheory/prime-sieve.cpp	Prime Sieve
-numbertheory/prime-factors.cpp	Prime Factors
+number_theory/extended_euclidean.cpp	Extended Euclidean
+number_theory/find_all_solutions.cpp	Find All Solutions
+number_theory/linear_sieve.cpp	Linear Sieve
+number_theory/miller_rabin.cpp	Miller Rabin
+number_theory/modulo_inverse.cpp	Modulo Inverse
+number_theory/pollard_rho_brent.cpp	Pollard Rho Brent
+number_theory/range_sieve.cpp	Range Sieve
+number_theory/segmented_sieve.cpp	Segmented Sieve
+number_theory/tonelli_shanks.cpp	Tonelli Shanks
 
-[Strings]
-string/KMP.cpp	Knuth-Morris-Pratt Algorithm
-string/Suffix.cpp	Suffix array
-string/z-function.cpp	z-function
-
-[EZPZ]
-misc/fastio.cpp	fast io
-misc/lisnlogn.cpp	LIS nlogn
-misc/MO.cpp	MOs
-
-[DYNAMIC]
-dynamic/longest-common-subsequence.cpp	Longest Common Subsequence

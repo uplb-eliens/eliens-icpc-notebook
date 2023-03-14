@@ -13,12 +13,10 @@ bool find_any_solution(ll a, ll b, ll c, ll &x0, ll &y0, ll &g) {
   }
   return true;
 }
-
 void shift_solution(ll & x, ll & y, ll a, ll b, ll cnt) {
   x += cnt * b;
   y -= cnt * a;
 }
-
 ll find_all_solutions(ll a, ll b, ll c, ll minx, ll maxx, ll miny, ll maxy) {
   ll x, y, g;
   if (!find_any_solution(a, b, c, x, y, g)) {

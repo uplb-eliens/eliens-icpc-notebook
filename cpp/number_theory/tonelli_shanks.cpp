@@ -1,7 +1,6 @@
 ll legendre(ll a, ll p) {
   return bin_pow_mod(a, (p - 1) / 2, p);
 }
-
 ll tonelli_shanks(ll n, ll p) {
   if (legendre(n, p) == p - 1) {
     return -1;
