@@ -4,6 +4,7 @@
         "*html": "html",
         "vector": "cpp",
         "system_error": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "tuple": "cpp"
     }
 }
