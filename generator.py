@@ -76,6 +76,7 @@ if __name__ == "__main__":
     assert basepath in ('python3', 'cpp', 'pegaraw')
     sections = get_sections('cpp' if basepath == 'pegaraw' else basepath)
     tex = get_tex(sections)
+    
     with open('contents_'+basepath+'.tex', 'w') as f:
         f.write(tex)
 

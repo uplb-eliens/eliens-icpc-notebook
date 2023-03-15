@@ -1,28 +1,47 @@
 [Data Structures]
+data_structures/minimum_queue.cpp	Minimum Queue
+data_structures/segment_tree_1.cpp	Segment Tree 1
+data_structures/segment_tree_2.cpp	Segment Tree 2
+data_structures/sparse_table.cpp	Sparse Table
 data_structures/union_find.cpp	Union Find
 
 [Dynamic Programming]
+dynamic_programming/divide_and_conquer.cpp	Divide And Conquer
 dynamic_programming/edit_distance.cpp	Edit Distance
 dynamic_programming/knapsack.cpp	Knapsack
+dynamic_programming/knuth_optimization.cpp	Knuth Optimization
 dynamic_programming/longest_common_subsequence.cpp	Longest Common Subsequence
 dynamic_programming/longest_increasing_subsequence.cpp	Longest Increasing Subsequence
 dynamic_programming/subset_sum.cpp	Subset Sum
+
+[Geometry]
+geometry/circle_line_intersection.cpp	Circle Line Intersection
+geometry/convex_hull.cpp	Convex Hull
+geometry/line_sweep.cpp	Line Sweep
+geometry/nearest_points.cpp	Nearest Points
 
 [Graph Theory]
 graph_theory/articulation_point.cpp	Articulation Point
 graph_theory/bellman_ford.cpp	Bellman Ford
 graph_theory/bridge.cpp	Bridge
 graph_theory/dijkstra.cpp	Dijkstra
+graph_theory/find_cycle.cpp	Find Cycle
 graph_theory/floyd_warshall.cpp	Floyd Warshall
 graph_theory/hierholzer.cpp	Hierholzer
 graph_theory/is_bipartite.cpp	Is Bipartite
 graph_theory/is_cyclic.cpp	Is Cyclic
 graph_theory/kahn.cpp	Kahn
+graph_theory/kruskal_mst.cpp	Kruskal Mst
+graph_theory/lowest_common_ancestor.cpp	Lowest Common Ancestor
 graph_theory/maximum_bipartite_matching.cpp	Maximum Bipartite Matching
 graph_theory/max_flow.cpp	Max Flow
 graph_theory/prim_mst.cpp	Prim Mst
 graph_theory/strongly_connected_component.cpp	Strongly Connected Component
 graph_theory/topological_sort.cpp	Topological Sort
+
+[Miscellaneous]
+miscellaneous/gauss.cpp	Gauss
+miscellaneous/ternary_search.cpp	Ternary Search
 
 [Number Theory]
 number_theory/extended_euclidean.cpp	Extended Euclidean
@@ -34,4 +53,11 @@ number_theory/pollard_rho_brent.cpp	Pollard Rho Brent
 number_theory/range_sieve.cpp	Range Sieve
 number_theory/segmented_sieve.cpp	Segmented Sieve
 number_theory/tonelli_shanks.cpp	Tonelli Shanks
+
+[Strings]
+strings/hashing.cpp	Hashing
+strings/knuth_morris_pratt.cpp	Knuth Morris Pratt
+strings/rabin_karp.cpp	Rabin Karp
+strings/suffix_array.cpp	Suffix Array
+strings/z_function.cpp	Z Function
 
