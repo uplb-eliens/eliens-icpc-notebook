@@ -12,13 +12,11 @@ struct UnionFind {
   void union_sets(ll i, ll j) {
     ll x = find_set(i), y = find_set(j);
     if (x != y) {
-      if (p[x] < p[y]) {
-        p[x] += p[y];
-        p[y] = x;
-      } else {
-        p[y] += p[x];
-        p[x] = y;
+      if (p[x] > p[y]) {
+        swap(x, y);
       }
+      p[x] += p[y];
+      p[y] = x;
     }
   }
 };
