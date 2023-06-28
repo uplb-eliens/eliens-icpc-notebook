@@ -1,23 +1,25 @@
-class UF {
-private: vector<ll> p;
-public:
-  UF(ll N) {p.assign(N, -1);}
-  ll fs(ll i ) {
-    return (p[i] < 0) ? i : (p[i] = fs(p[i]));
+struct UnionFind {
+  vector<ll> p;
+  UnionFind(ll n) {
+    p.assign(n, -1);
   }
-  bool isSame(ll i, ll j) {
-    return fs(i) == fs(j);
+  ll find_set(ll i) {
+    return (p[i] == -1) ? i : (p[i] = find_set(p[i]));
   }
-  void join(ll i, ll j) {
-    ll x = fs(i), y = fs(j);
-    if (x != y){    
-      if (x < y) { 
-        p[x] += p[y]; 
-        p[y] = x; 
-      }
-      else {
-        p[y] += p[x]; p[x] = y; 
-      } 
-    } 
+  bool is_same(ll i, ll j) {
+    return find_set(i) == find_set(j);
+  }
+  void union_sets(ll i, ll j) {
+    ll x = find_set(i), y = find_set(j);
+    if (x == y) {
+      return;
+    }
+    if (x < y) {
+      p[x] += p[y];
+      p[y] = x;
+    } else {
+      p[y] += p[x];
+      p[x] = y;
+    }
   }
 };
