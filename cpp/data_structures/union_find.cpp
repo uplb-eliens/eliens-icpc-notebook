@@ -4,7 +4,7 @@ struct UnionFind {
     p.assign(n, -1);
   }
   ll find_set(ll i) {
-    return (p[i] == -1) ? i : (p[i] = find_set(p[i]));
+    return (p[i] < 0) ? i : (p[i] = find_set(p[i]));
   }
   bool is_same(ll i, ll j) {
     return find_set(i) == find_set(j);
