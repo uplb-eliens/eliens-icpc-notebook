@@ -6,13 +6,13 @@ Credits: https://github.com/abizerlokhandwala/ICPC-notebook-generator
 ## Usage
 Tested on Ubuntu 20.04. Install the following dependencies.
 ```bash
-$sudo apt install texlive-base texlive texlive-latex-extra latexmk
+sudo apt install texlive-base texlive texlive-latex-extra latexmk
 ```
 
 To generate a notebook:
 
 ```
-$python3 generator.py <python3|cpp>
+python3 generator.py <python3|cpp>
 ```
 
 ## Adding Code
@@ -27,10 +27,10 @@ cpp
 
 ## Generating contents.txt
 ```
-$python3 makecontents.py <python3|cpp>
+python3 makecontents.py <python3|cpp>
 ```
 
 ##  Clean Up
 ```
-$./clean.sh
+./clean.sh
 ```
