@@ -1,9 +1,9 @@
 [Data Structures]
+data_structures/disjoint_set_union.cpp	Disjoint Set Union
 data_structures/minimum_queue.cpp	Minimum Queue
-data_structures/segment_tree_1.cpp	Segment Tree 1
-data_structures/segment_tree_2.cpp	Segment Tree 2
+data_structures/range_add_point_query.cpp	Range Add Point Query
+data_structures/segment_tree.cpp	Segment Tree
 data_structures/sparse_table.cpp	Sparse Table
-data_structures/union_find.cpp	Union Find
 
 [Dynamic Programming]
 dynamic_programming/divide_and_conquer.cpp	Divide And Conquer

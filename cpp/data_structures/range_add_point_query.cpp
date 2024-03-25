@@ -1,54 +1,54 @@
-template<class T>
+template<typename T, typename InType = T>
 class SegTreeNode {
 public:
-  const T IDENTITY = 0;
+  const T IDN = 0, DEF = 0;
   int i, j;
-  T value;
-  SegTreeNode<T>* lc, * rc;
+  T val;
+  SegTreeNode<T, InType>* lc, * rc;
   SegTreeNode(int i, int j) : i(i), j(j) {
-    value = IDENTITY;
     if (j - i == 1) {
+      val = DEF;
       lc = rc = nullptr;
       return;
     }
+    val = 0;
     int k = (i + j) / 2;
-    lc = new SegTreeNode(i, k);
-    rc = new SegTreeNode(k, j);
+    lc = new SegTreeNode<T, InType>(i, k);
+    rc = new SegTreeNode<T, InType>(k, j);
   }
-  SegTreeNode(const vector<T>& a, int i, int j) : i(i), j(j) {
-    value = j - i == 1 ? a[i] : IDENTITY;
+  SegTreeNode(const vector<InType>& a, int i, int j) : i(i), j(j) {
     if (j - i == 1) {
+      val = (T) a[i];
       lc = rc = nullptr;
       return;
     }
+    val = 0;
     int k = (i + j) / 2;
-    lc = new SegTreeNode(a, i, k);
-    rc = new SegTreeNode(a, k, j);
+    lc = new SegTreeNode<T, InType>(a, i, k);
+    rc = new SegTreeNode<T, InType>(a, k, j);
   }
-  void range_update(int l, int r, T x) {
+  void range_add(int l, int r, T x) {
     if (r <= i || j <= l) return;
     if (l <= i && j <= r) {
-      value = op(value, x);
+      val += x;
       return;
     }
-    lc->range_update(l, r, x);
-    rc->range_update(l, r, x);
+    lc->range_add(l, r, x);
+    rc->range_add(l, r, x);
   }
   T point_query(int k) {
-    if (k < i || j <= k) return IDENTITY;
-    if (j - i == 1) {
-      return value;
-    }
-    return op(value, op(lc->point_query(k), rc->point_query(k)));
+    if (k < i || j <= k) return IDN;
+    if (j - i == 1) return val;
+    return val + lc->point_query(k) + rc->point_query(k);
   }
-  T op(T x, T y) { return x + y; }
 };
-template<class T>
+
+template<typename T, typename InType = T>
 class SegTree {
 public:
-  SegTreeNode<T> root;
+  SegTreeNode<T, InType> root;
   SegTree(int n) : root(0, n) {}
-  SegTree(const vector<T>& a) : root(a, 0, a.size()) {}
-  void range_update(int l, int r, T x) { root.range_update(l, r, x); }
+  SegTree(const vector<InType>& a) : root(a, 0, a.size()) {}
+  void range_add(int l, int r, T x) { root.range_add(l, r, x); }
   T point_query(int k) { return root.point_query(k); }
 };
