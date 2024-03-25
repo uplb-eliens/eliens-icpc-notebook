@@ -5,6 +5,9 @@
         "vector": "cpp",
         "system_error": "cpp",
         "xstring": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp"
     }
 }

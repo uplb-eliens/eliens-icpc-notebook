@@ -3,14 +3,10 @@ ll log2_floor(ll i) {
 }
 vector<vector<ll>> build_sum(ll N, ll K, vector<ll> &array) {
   vector<vector<ll>> st(K + 1, vector<ll>(N + 1));
-  for (ll i = 0; i < N; i++) {
-    st[0][i] = array[i];
-  }
-  for (ll i = 1; i <= K; i++) {
-    for (ll j = 0; j + (1 << i) <= N; j++) {
+  for (ll i = 0; i < N; i++) st[0][i] = array[i];
+  for (ll i = 1; i <= K; i++)
+    for (ll j = 0; j + (1 << i) <= N; j++)
       st[i][j] = st[i - 1][j] + st[i - 1][j + (1 << (i - 1))];
-    }
-  }
   return st;
 }
 ll sum_query(ll L, ll R, ll K, vector<vector<ll>> &st) {
@@ -25,14 +21,10 @@ ll sum_query(ll L, ll R, ll K, vector<vector<ll>> &st) {
 }
 vector<vector<ll>> build_min(ll N, ll K, vector<ll> &array) {
   vector<vector<ll>> st(K + 1, vector<ll>(N + 1));
-  for (ll i = 0; i < N; i++) {
-    st[0][i] = array[i];
-  }
-  for (ll i = 1; i <= K; i++) {
-    for (ll j = 0; j + (1 << i) <= N; j++) {
+  for (ll i = 0; i < N; i++) st[0][i] = array[i];
+  for (ll i = 1; i <= K; i++)
+    for (ll j = 0; j + (1 << i) <= N; j++) 
       st[i][j] = min(st[i - 1][j], st[i - 1][j + (1 << (i - 1))]);
-    }
-  }
   return st;
 }
 ll min_query(ll L, ll R, vector<vector<ll>> &st) {
