@@ -2,6 +2,7 @@
 data_structures/disjoint_set_union.cpp	Disjoint Set Union
 data_structures/minimum_queue.cpp	Minimum Queue
 data_structures/range_add_point_query.cpp	Range Add Point Query
+data_structures/range_add_range_query.cpp	Range Add Range Query
 data_structures/segment_tree.cpp	Segment Tree
 data_structures/sparse_table.cpp	Sparse Table
 

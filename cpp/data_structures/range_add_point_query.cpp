@@ -42,7 +42,6 @@ public:
     return val + lc->point_query(k) + rc->point_query(k);
   }
 };
-
 template<typename T, typename InType = T>
 class SegTree {
 public:

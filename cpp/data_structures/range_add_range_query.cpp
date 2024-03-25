@@ -56,7 +56,6 @@ public:
   }
   T operation(T x, T y) {}
 };
-
 template<typename T, typename InType = T>
 class SegTree {
 public:
